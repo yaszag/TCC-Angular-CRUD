@@ -1,0 +1,28 @@
+<div class="col-md-6 user-container">
+    <h2 style="margin: auto"> User Details</h2>
+    <button class="btn btn-danger addbtn" style="width:100px" (click)="addUser()"> Add User</button>
+    <table class="table table-striped">
+      <thead>
+      <tr>
+        <th class="hidden">Id</th>
+        <th>FirstName</th>
+        <th>LastName</th>
+        <th>Email</th>
+      
+      </tr>
+      </thead>
+      <tbody>
+        <!-- Using async pipe to subscribe and unsubscribe automatically from observable -->
+      <tr *ngFor="let user of (User$ | async)">
+       
+        <td>{{user.id}}</td>
+        <td>{{user.firstname}}</td>
+        <td>{{user.lastname}}</td>
+        <td>{{user.email}}</td>
+        
+        <td><button class="btn btn-success" (click)="DeleteUser(user.id)"> Delete</button>
+          <button class="btn btn-success" (click)="editUser(user.id)"  style="margin-left: 20px;"> Edit</button></td>
+      </tr>
+      </tbody>
+    </table>
+  </div>

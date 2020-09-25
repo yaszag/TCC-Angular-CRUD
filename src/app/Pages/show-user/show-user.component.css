@@ -1,0 +1,13 @@
+.user-container{
+    position: absolute;
+
+left: 2%;
+top: 5%;
+}
+.addbtn{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+table{
+    border: 2px solid #ff00004f;
+}

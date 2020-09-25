@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": 5,
+      "firstname": "Shubhamsq",
+      "lastname": "kaushiksqd",
+      "email": "managekaushiksr@gmail.com"
+    },
+    {
+      "id": 6,
+      "firstname": "harsh",
+      "lastname": "kaushik",
+      "email": "Teamharsh@gmail.com"
+    },
+    {
+      "id": 7,
+      "firstname": "Vihaan",
+      "lastname": "sharma",
+      "email": "harshManager@gmail.com"
+    },
+    {
+      "id": 8,
+      "firstname": "Ishaant",
+      "lastname": "sharma",
+      "email": "GroupIshaant@gmail.com"
+    },
+    {
+      "id": 9,
+      "firstname": "Ishaant",
+      "lastname": "sharma",
+      "email": "Group-sharmar@gmail.com"
+    },
+    {
+      "id": 10,
+      "firstname": "Ishaant",
+      "lastname": "shasrma",
+      "email": "kaushik-Manager@gmail.com"
+    }
+  ]
+}
